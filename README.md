@@ -17,6 +17,6 @@ Track your daily expenses, visualize your spending patterns, and take control of
 
 ---
 
-## Preview
-![Dashboard view](./ss1.png)
-![Add Expense form](./ss2.png)
+## Live Demo
+Check out the live app here:  
+[SpendWise – Live App](https://finance-c67ef.web.app)
