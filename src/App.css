@@ -1,38 +1,116 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+/* Base styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #7F7FD5, #86A8E7, #91EAE4);
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  transition: background 0.5s ease-in-out;
+  color: #333;
+}
+
+/* Container Card */
+.container {
+  max-width: 500px;
+  margin: 3rem auto;
+  padding: 2.5rem 2rem;
+  /* background: linear-gradient(to bottom right, #d9a7c7, #fffcdc); */
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  color: black;
+  /* transition: transform 0.3s ease, box-shadow 0.3s ease; */
+}
+
+
+/* Headings */
+h2 {
+  font-size: 1.8rem;
+  color: #222;
+  margin-bottom: 0.5rem;
+}
+
+h3 {
+  font-size: 1.3rem;
+  color: #444;
+  margin-top: 1.8rem;
+}
+
+/* Inputs & Form */
+input {
+  width: 100%;
+  padding: 0.75rem;
+  margin: 0.6rem 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border 0.2s ease-in-out;
+}
+
+input:focus {
+  border-color: #4caf50;
+  outline: none;
+}
+
+/* Buttons */
+button {
+  padding: 0.65rem 1.4rem;
+  border: none;
+  border-radius: 8px;
+  background-color: #4caf50;
   color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 0.5rem;
+  transition: background-color 0.2s ease;
 }
 
-.App-link {
-  color: #61dafb;
+button:hover {
+  background-color: #388e3c;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Logout Button */
+.logout-button-wrapper {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.logout-button-wrapper button {
+  background-color: #e53935;
+  padding: 8px 20px;
+  font-size: 0.95rem;
+}
+
+.logout-button-wrapper button:hover {
+  background-color: #c62828;
+}
+
+/* Expense List */
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 1rem;
+}
+
+li {
+  background-color: #eef1f5;
+  padding: 0.75rem 1rem;
+  margin: 0.5rem 0;
+  border-radius: 8px;
+  font-size: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li button {
+  background-color: #ff6f61;
+  padding: 4px 10px;
+  font-size: 0.9rem;
+  margin-left: 10px;
+}
+
+li button:hover {
+  background-color: #d84339;
 }
