@@ -1,4 +1,3 @@
-/* Base styles */
 body {
   margin: 0;
   padding: 0;
@@ -9,7 +8,6 @@ body {
   color: #333;
 }
 
-/* Container Card */
 .container {
   max-width: 500px;
   margin: 3rem auto;
@@ -22,8 +20,6 @@ body {
   /* transition: transform 0.3s ease, box-shadow 0.3s ease; */
 }
 
-
-/* Headings */
 h2 {
   font-size: 1.8rem;
   color: #222;
@@ -35,8 +31,6 @@ h3 {
   color: #444;
   margin-top: 1.8rem;
 }
-
-/* Inputs & Form */
 input {
   width: 100%;
   padding: 0.75rem;
@@ -51,8 +45,6 @@ input:focus {
   border-color: #4caf50;
   outline: none;
 }
-
-/* Buttons */
 button {
   padding: 0.65rem 1.4rem;
   border: none;
@@ -68,8 +60,6 @@ button {
 button:hover {
   background-color: #388e3c;
 }
-
-/* Logout Button */
 .logout-button-wrapper {
   margin-top: 2rem;
   display: flex;
@@ -86,7 +76,6 @@ button:hover {
   background-color: #c62828;
 }
 
-/* Expense List */
 ul {
   list-style-type: none;
   padding: 0;
