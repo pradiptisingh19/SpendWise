@@ -6,8 +6,7 @@ Track your daily expenses, visualize your spending patterns, and take control of
 ---
 ## Preview
 <p align="center">
-  <img src="./ss1.png" width="45%" />
-  <img src="./ss2.png" width="45%" />
+  <img src="./image.png" width="70%" />
 </p>
 
 
