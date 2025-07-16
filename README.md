@@ -4,6 +4,12 @@ A clean and simple personal finance tracker built with **React** and **Firebase*
 Track your daily expenses, visualize your spending patterns, and take control of your money — all in one minimal app.
 
 ---
+## Preview
+<p align="center">
+  <img src="./ss1.png" width="45%" />
+  <img src="./ss2.png" width="45%" />
+</p>
+
 
 ## Features
 
