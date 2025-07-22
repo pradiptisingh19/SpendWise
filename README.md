@@ -4,11 +4,19 @@ A clean and simple personal finance tracker built with **React** and **Firebase*
 Track your daily expenses, visualize your spending patterns, and take control of your money — all in one minimal app.
 
 ---
+
+## Live Demo
+Check out the live app here:  
+[SpendWise – Live App](https://finance-c67ef.web.app)
+
+---
+
 ## Preview
 <p align="center">
   <img src="./image.png" width="200%" height="100%" />
 </p>
 
+---
 
 ## Features
 
@@ -19,9 +27,3 @@ Track your daily expenses, visualize your spending patterns, and take control of
 - Delete individual expense entries
 - Real-time updates with Firebase Firestore
 - Deployed on Firebase Hosting for instant access
-
----
-
-## Live Demo
-Check out the live app here:  
-[SpendWise – Live App](https://finance-c67ef.web.app)
