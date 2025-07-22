@@ -1,6 +1,7 @@
 import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
+import { getPerformance } from "firebase/performance";
 const firebaseConfig = {
   apiKey: "AIzaSyC_fAX2GSogSRGuxRzu7tSFagwlqf33TNI",
   authDomain: "finance-c67ef.firebaseapp.com",
@@ -12,3 +13,4 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 export const auth = getAuth(app);
 export const db = getFirestore(app);
+export const perf = getPerformance(app);
