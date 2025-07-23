@@ -11,7 +11,7 @@ import {
   onSnapshot,
   where
 } from "firebase/firestore";
-
+// import {logo} from "../image.png";
 const Dashboard = () => {
   const [user, setUser] = useState(null);
   const [amount, setAmount] = useState("");
@@ -76,6 +76,14 @@ const handleDelete = async (id) => {
   return (
   <>
     <div className="container">
+    <div style={{ textAlign: "center" }}>
+  <img
+    src={"logos.png"}
+    alt="SpendWise Logo"
+    style={{ height: "100px" }}
+  />
+</div>
+
       <h2>Welcome, {user?.email}</h2>
 
       <h3 style={{ marginTop: "2rem" }}>Add Expense</h3>
