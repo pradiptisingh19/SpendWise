@@ -1,28 +1,27 @@
 # 💸 SpendWise
 
 A clean and simple personal finance tracker built with **React** and **Firebase**.  
-Track your daily expenses, visualize your spending patterns, and take control of your money — all in one minimal app.
+Track your daily expenses, visualize your spending patterns, and take control of your money — all in one app.
 
 ---
 
 ## Live Demo
-Check out the live app here:  
-[SpendWise – Live App](https://finance-c67ef.web.app)
+Check out the live app here: [SpendWise – Live App](https://finance-c67ef.web.app)
 
 ---
 
 ## Preview
 <p align="center">
-  <img src="./image1.png" width="80%" />
+  <img src="./ss1.png" width="80%" />
 </p>
 
 <p align="center">
-  <img src="./image2.png" width="45%" />
-  <img src="./image3.png" width="45%" />
+  <img src="./ss2.png" width="45%" />
+  <img src="./ss3.png" width="45%" />
 </p>
 
 <p align="center">
-  <img src="./image4.png" width="90%" />
+  <img src="./ss4.png" width="90%" />
 </p>
 
 ---
