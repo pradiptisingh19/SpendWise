@@ -5,14 +5,14 @@ import "./navbar.css";
 const Navbar = () => {
   return (
     <nav className="navbar">
-      {/* <div style={{ textAlign: "center" }}>
+      <div style={{ textAlign: "center" }}>
   <img
-    src={"logos.png"}
+    src={"/logos2.png"}
     alt="SpendWise Logo"
     style={{ height: "80px" }}
   />
-</div> */}
-    <div> </div>
+</div>
+    {/* <div> </div> */}
       <ul className="nav-links">
         <li><NavLink to="/dashboard/spent" className={({ isActive }) => isActive ? "active" : ""}>Spent</NavLink></li>
         <li><NavLink to="/dashboard/lent" className={({ isActive }) => isActive ? "active" : ""}>Lent</NavLink></li>
