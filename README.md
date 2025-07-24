@@ -12,24 +12,27 @@ Check out the live app here:
 ---
 
 ## Preview
+<p align="center">
+  <img src="./image1.png" width="70%" />
+</p>
 
 <p align="center">
-  <img src="./ss1.png" width="45%" />
-  <img src="./ss2.png" width="45%" />
+  <img src="./image2.png" width="45%" />
+  <img src="./image3.png" width="45%" />
 </p>
+
 <p align="center">
-  <img src="./ss3.png" width="45%" />
-  <img src="./ss4.png" width="45%" />
+  <img src="./image4.png" width="70%" />
 </p>
 
 ---
 
 ## Features
 
-- User sign-up and login using Firebase Authentication
-- Add and manage daily expenses with category and amount
-- View total spending and detailed list of all expenses
-- Visual breakdown of spending patterns using charts (Recharts)
-- Delete individual expense entries
-- Real-time updates with Firebase Firestore
-- Deployed on Firebase Hosting for instant access
+-Total Spend Summary: Instantly view your overall spending at the top
+-Breakdown of Expenses: Category-wise pie chart to understand spending patterns
+-Add/Delete Expenses: Record daily expenses with category and amount
+-Add/Delete Lent Entries: Track money lent to others and manage repayments
+-Profile Settings: Change username and password with Firebase Authentication
+-Real-Time Updates: All actions sync live via Firebase Firestore
+-Deployed on Firebase Hosting: Accessible across devices instantly
