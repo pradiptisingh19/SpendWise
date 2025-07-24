@@ -12,8 +12,14 @@ Check out the live app here:
 ---
 
 ## Preview
+
 <p align="center">
-  <img src="./image.png" width="200%" height="100%" />
+  <img src="./ss1.png" width="45%" />
+  <img src="./ss2.png" width="45%" />
+</p>
+<p align="center">
+  <img src="./ss3.png" width="45%" />
+  <img src="./ss4.png" width="45%" />
 </p>
 
 ---
