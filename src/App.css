@@ -1,43 +1,43 @@
 body {
   margin: 0;
-  padding: 0;
   font-family: "Inter", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background: linear-gradient(to right, #7F7FD5, #86A8E7, #91EAE4);
-  min-height: 100vh;
-  transition: background 0.5s ease-in-out;
+  background-color: #558ba4;
   color: #333;
+  min-height: 100vh;
 }
 
 .container {
-  max-width: 500px;
+  max-width: 520px;
   margin: 3rem auto;
   padding: 2.5rem 2rem;
-  /* background: linear-gradient(to bottom right, #d9a7c7, #fffcdc); */
-  border-radius: 20px;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  background: #ffffffd0;
+  backdrop-filter: blur(10px);
+  border-radius: 18px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
   text-align: center;
-  color: black;
-  /* transition: transform 0.3s ease, box-shadow 0.3s ease; */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 h2 {
   font-size: 1.8rem;
-  color: #222;
   margin-bottom: 0.5rem;
+  font-weight: 600;
 }
 
 h3 {
   font-size: 1.3rem;
+  margin-top: 2rem;
   color: #444;
-  margin-top: 1.8rem;
 }
+
 input {
   width: 100%;
   padding: 0.75rem;
   margin: 0.6rem 0;
   border: 1px solid #ccc;
-  border-radius: 8px;
+  border-radius: 10px;
   font-size: 1rem;
+  background: #f8f8f8;
   transition: border 0.2s ease-in-out;
 }
 
@@ -45,21 +45,25 @@ input:focus {
   border-color: #4caf50;
   outline: none;
 }
+
 button {
-  padding: 0.65rem 1.4rem;
+  padding: 0.75rem 1.5rem;
   border: none;
-  border-radius: 8px;
+  border-radius: 10px;
   background-color: #4caf50;
   color: white;
   font-size: 1rem;
+  font-weight: 500;
   cursor: pointer;
-  margin-top: 0.5rem;
-  transition: background-color 0.2s ease;
+  margin-top: 1rem;
+  transition: background-color 0.2s ease, transform 0.2s ease;
 }
 
 button:hover {
   background-color: #388e3c;
+  transform: translateY(-2px);
 }
+
 .logout-button-wrapper {
   margin-top: 2rem;
   display: flex;
@@ -68,8 +72,6 @@ button:hover {
 
 .logout-button-wrapper button {
   background-color: #e53935;
-  padding: 8px 20px;
-  font-size: 0.95rem;
 }
 
 .logout-button-wrapper button:hover {
@@ -77,29 +79,33 @@ button:hover {
 }
 
 ul {
-  list-style-type: none;
+  list-style: none;
   padding: 0;
-  margin-top: 1rem;
+  margin-top: 1.5rem;
 }
 
 li {
-  background-color: #eef1f5;
-  padding: 0.75rem 1rem;
-  margin: 0.5rem 0;
-  border-radius: 8px;
+  background-color: #f9fafc;
+  padding: 0.9rem 1.2rem;
+  margin: 0.6rem 0;
+  border-radius: 10px;
   font-size: 1rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
 }
 
 li button {
   background-color: #ff6f61;
-  padding: 4px 10px;
+  padding: 5px 12px;
   font-size: 0.9rem;
-  margin-left: 10px;
+  border-radius: 6px;
 }
 
 li button:hover {
   background-color: #d84339;
+}
+.profile{
+  color: white;
 }
