@@ -13,16 +13,16 @@ Check out the live app here:
 
 ## Preview
 <p align="center">
-  <img src="./image1.png" width="70%" />
+  <img src="./ss1.png" width="70%" />
 </p>
 
 <p align="center">
-  <img src="./image2.png" width="45%" />
-  <img src="./image3.png" width="45%" />
+  <img src="./ss2.png" width="45%" />
+  <img src="./ss3.png" width="45%" />
 </p>
 
 <p align="center">
-  <img src="./image4.png" width="70%" />
+  <img src="./ss4.png" width="70%" />
 </p>
 
 ---
